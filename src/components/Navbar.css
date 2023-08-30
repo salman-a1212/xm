@@ -1,0 +1,11 @@
+.nav-link {
+  color: #00142d;
+  font-size: 18px;
+  font-weight: 450;
+}
+
+.nav-btn {
+  border-radius: 60px !important;
+  background: #0669f7 !important;
+  padding: 11px 37px !important;
+}

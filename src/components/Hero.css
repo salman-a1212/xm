@@ -1,0 +1,7 @@
+.bg-img {
+  background-image: url("../images/header.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}

@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Circular Std Book" !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg_1 {
+  background-image: url("./images/how_1.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg_2 {
+  background-image: url("./images/how_2.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg_3 {
+  background-image: url("./images/how_3.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-.App-link {
-  color: #61dafb;
+.bg_4 {
+  background-image: url("./images/how_4.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg_5 {
+  background-image: url("./images/how_5.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.how_title > h2,
+.client_title > h2,
+.form_title > h2 {
+  background-image: url("./images/circle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #00142d;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.how_title > p,
+.how_col_p2,
+.offer_col_p2,
+.client_col_p2,
+.client_title > p,
+.form_title > p {
+  color: #707070;
+  font-size: 18px;
+  font-weight: 450;
+}
+
+.how_col_p1,
+.offer_col_p1,
+.client_col_p1 {
+  color: #00142d;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.service_btn:hover {
+  background-color: #0669f7 !important;
+  color: #fff !important;
+  border: 1px solid #0669f7 !important;
+}
+
+.service_btn {
+  color: #00142d !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  width: 150px;
+}
+
+.test_bg {
+  background: #00142d;
+}
+
+.test_title > h2,
+.form_title > h2 {
+  color: #00142d;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.test_number {
+  font-size: 55px !important;
+  font-weight: 700 !important;
+}
+
+.num_details {
+  font-size: 25px !important;
+  font-weight: 500 !important;
+}
+
+.offer_title > p {
+  color: #0669f7;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.offer_title > h2,
+.client_title > h2 {
+  color: #00142d;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.contact_bg {
+  background-image: url("./images/contact_bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+}
+
+.form {
+  background-color: #fff;
+  width: 1170px;
+  box-shadow: 0px 35px 35px 0px rgba(0, 0, 0, 0.05);
+}
+
+.react-tel-input .form-control {
+  font-size: 16px;
+  background: #ffffff;
+  border: 1px solid #cacaca;
+  border-radius: 0px !important;
+  outline: none;
+  padding: 6px 0px 6px 60px !important;
+  transition: box-shadow ease 0.25s, border-color ease 0.25s;
+  color: #b1bfc9 !important;
+  width: 100% !important;
+}
+
+.form-control::placeholder {
+  color: #b1bfc9 !important;
+}
+
+.form_btn {
+  background-color: #0669f7 !important;
+  color: #fff !important;
+  border: 1px solid #0669f7 !important;
+}
+
+.contact_title {
+  font-size: 50px;
+  font-weight: 900;
 }
